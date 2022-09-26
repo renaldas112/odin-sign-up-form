@@ -1,1 +1,30 @@
 // Write your styles
+
+#bg-section {
+  background: url(../img/astronaut.png) center center no-repeat;
+  background-size: cover;
+  min-width: 50vw;
+  height: 100vh;
+}
+
+.w-40 {
+  width: 40% !important;
+}
+
+@media screen and (max-width: 768px) {
+  main {
+    flex-direction: column;
+  }
+  .form-section {
+    width: 100% !important;
+    margin: 0 !important;
+    align-items: center;
+  }
+  #bg-section {
+    height: 50vh;
+  }
+  .form-container-small {
+    flex-direction: column;
+    gap: 0 !important;
+  }
+}

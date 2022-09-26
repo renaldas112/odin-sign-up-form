@@ -15,22 +15,22 @@
     <link rel="stylesheet" href="./style/style.css" />
   </head>
   <body>
-    <main class="d-flex h-75">
-      <section class="w-100">
-        <img src="./img/astronaut.png" class="img-fluid" />
-      </section>
+    <main class="d-flex">
+      <section id="bg-section"></section>
       <section
-        class="d-flex flex-column justify-content-center mx-auto w-75 col-l-3"
+        class="form-section d-flex flex-column justify-content-center mx-auto w-40 col-l-3"
       >
-        <h3 class="mb-5 pe-3">
+        <h3 class="mb-4 pe-3">
           This is not a real online service! You know you need something like
           this in your life to help you realize your deapest dreams. Sign up
           <i>now</i> to get started <br /><br />
           You <i>know</i> you want to
         </h3>
         <form class="d-flex flex-column justify-content-center w-75">
-          <h3 class="my-2">Let's do this!</h3>
-          <div class="d-flex gap-5 justify-content-between">
+          <h4 class="my-3">Let's do this!</h4>
+          <div
+            class="d-flex gap-5 justify-content-between form-container-small"
+          >
             <div class="mb-3">
               <label for="firstName" class="form-label">First Name</label>
               <input type="text" class="form-control" id="firstName" required />
@@ -40,20 +40,21 @@
               <input type="text" class="form-control" id="lastName" required />
             </div>
           </div>
-          <div class="d-flex gap-5 justify-content-between">
+          <div
+            class="d-flex gap-5 justify-content-between form-container-small"
+          >
             <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label"
-                >Email address</label
-              >
+              <label for="email" class="form-label">Email address</label>
               <input
                 type="email"
                 class="form-control"
-                id="exampleInputEmail1"
+                id="email"
                 aria-describedby="emailHelp"
                 required
               />
               <div id="emailHelp" class="form-text">
-                We'll never share your email with anyone else.
+                We'll never share your email <br />
+                with anyone else.
               </div>
             </div>
             <div class="mb-3">
@@ -66,33 +67,39 @@
               />
             </div>
           </div>
-          <div class="d-flex gap-5 justify-content-between">
-            <div class="mb-3">
-              <label for="exampleInputPassword1" class="form-label"
-                >Password</label
-              >
+          <div
+            class="d-flex gap-5 justify-content-between form-container-small"
+          >
+            <div class="mb-3 passwords-container">
+              <label for="inputPassword1" class="form-label">Password</label>
               <input
                 type="password"
                 class="form-control"
-                id="exampleInputPassword1"
+                id="inputPassword1"
                 required
               />
             </div>
             <div class="mb-3">
-              <label for="exampleInputPassword2" class="form-label"
+              <label for="inputPassword2" class="form-label"
                 >Confirm Password</label
               >
               <input
                 type="password"
                 class="form-control"
-                id="exampleInputPassword2"
+                id="inputPassword2"
                 required
               />
             </div>
           </div>
-          <button type="submit" class="btn btn-primary">Submit</button>
+          <button
+            id="submitButton"
+            type="submit"
+            class="btn btn-primary mt-5 w-40 mx-auto"
+          >
+            Create Account
+          </button>
         </form>
-        <h3 class="align-self-end">Powered by Dall-E 2</h3>
+        <h4 class="align-self-end mt-5">Powered by Dall-E 2</h4>
       </section>
     </main>
   </body>
