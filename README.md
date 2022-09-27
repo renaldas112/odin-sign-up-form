@@ -4,13 +4,12 @@ Intermediate HTML and CSS | "Project: Sign Up Form" from "theodinproject.com"
 
 ## Sign Up Form
 <div align="center">
-  <img src ="images/screenshot.PNG" style="width: 500px" />
+  <img src ="img/screenshot.PNG" style="width: 500px" />
 </div>
 
-## Etch a Sketch
-A Etch a Sketch app lets you draw pixelated image by choosing canvas size, picking a color and hovering your mouse on canvas to draw. <br/>
+## Sign Up Form
+A Sign Up Form design created uing HTML5, SCSS and used some JavaScript for form validation. <br/>
 <br/>
-Created using JavaScript, HTML5 and SCSS for main styling
 
 MIT © [Renaldas112]()
 
