@@ -4,7 +4,7 @@ Intermediate HTML and CSS | "Project: Sign Up Form" from "theodinproject.com"
 
 ## Sign Up Form
 <div align="center">
-  <img src ="/img/screenshot.png" style="width: 500px" />
+  <img src ="/img/screenshot.png" style="width: 750px" />
 </div>
 
 ## Sign Up Form
